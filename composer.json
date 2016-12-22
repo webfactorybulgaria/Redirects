@@ -1,0 +1,21 @@
+{
+    "name": "webfactorybulgaria/redirects",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atanas Georgiev",
+            "email": "nasko@webfactory.bg"
+        }
+    ],
+    "require": {
+        "webfactorybulgaria/core": "~4.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TypiCMS\\Modules\\Redirects\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
